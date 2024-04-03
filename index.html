@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -23,8 +22,8 @@
 
             <div class="cabecalho__pesquisar">
 
-                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input">
-                <button class="pesquisar__botao">
+                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
+                <button class="pesquisar__botao" data-botao-pesquisa>
 
             </div>
 
@@ -38,8 +37,8 @@
     <ul class="videos__container" alt="videos alura" data-lista>
 
     </ul>
-    //Quando trabalha com import e export é modularização então tem que colocar (TYPE="MODULE") 
-    <script src="app/mostrarVideos.js" type="module"></script>
+    <script src="./js/mostrarVideos.js" type="module"></script>
+    <script src="./js/buscarVideo.js" type="module"></script>
 </body>
 
 </html>
